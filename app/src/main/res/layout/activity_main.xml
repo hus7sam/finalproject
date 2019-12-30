@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7C45F"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.codingelab.Final_Project_409.MainActivity">
+
+    <Button
+        android:id="@+id/onSyn"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="514dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif-black"
+        android:shadowRadius="5"
+        android:text="synchronisme "
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnexternalPHP"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="393dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text='use external DB  "PHP"'
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnLocalDb"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="309dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif-black"
+        android:text='use Internal  DB  "SQLite"'
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+</RelativeLayout>

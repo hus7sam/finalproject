@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F7C45F"
+    android:gravity="center"
+    android:padding="0dp"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/Column_id"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="12"
+        android:background="#F7C45F"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/Column_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
+        android:background="#F7C45F"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/Column_Phone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
+        android:background="#F7C45F"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/Column_Email"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
+        android:background="#F7C45F"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"></TextView>
+
+</LinearLayout>

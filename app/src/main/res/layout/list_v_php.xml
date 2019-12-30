@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7C45F">
+
+    <TextView
+        android:id="@+id/id1"
+        android:layout_width="59dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|left"
+        android:background="#F7C45F"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/Name1"
+        android:layout_width="93dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:layout_marginTop="00dp"
+        android:background="#F7C45F"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/Phone1"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="#F7C45F"
+        android:gravity="left"
+        android:padding="0dp"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|left"
+        android:background="#F7C45F"
+        android:paddingBottom="18dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15dp" />
+
+
+</LinearLayout>
